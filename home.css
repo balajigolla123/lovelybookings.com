@@ -1,0 +1,127 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* margin: 0px 200px;
+    background-color: #fff5ee; */
+    background-image: url('https://etimg.etb2bimg.com/photo/90052358.cms');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 150%;
+} 
+.first{
+    background-color: skyblue;
+    padding:30px 0px ;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+
+    /* margin: 0px 0px; */
+
+}
+.main .main-a h1{
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.main .main-a h1 b{
+    color: red;
+}
+.login{
+    background-color:#ffffff;
+    border: 2px solid red;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+
+}
+.signin{
+    background-color: red;
+    color:#ffffff;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+}
+
+.nav ul{
+    margin: 0px 150px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-right: 300px;
+}
+.nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+.nav ul .active{
+    text-decoration: underline 5px red;
+   
+}
+.main-b h1,h2{
+    color: #ffffff;
+    font-size: 70px;
+    padding-left: 70px;
+    row-gap: 20px;
+}
+.main-c ul{
+    display: flex;
+    list-style:none;
+    column-gap: 20px;
+    padding: 0px 400px;
+    align-items: center;
+    height: 30px;
+    
+}
+.main-c ul input{
+    content: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;  
+    border: 1px solid whitesmoke; 
+    box-shadow:1px 2px  rgb(50, 53, 56);
+    
+    
+}
+.main-c ul  #loc{
+    border-radius: 10px;
+    
+    cursor: pointer;
+    
+}
+.main-c ul #res{
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+.main-c ul #res{
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+.main-d{
+    padding-left: 100px;
+}
+.main-d h1{
+    font-size: 30px;
+}
+.main-d .image{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.main-d .image img{
+    width: 100%;
+    height: 100%;
+}
